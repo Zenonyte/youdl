@@ -65,6 +65,3 @@ while True:
         print('The new download directory is {}. '.format(dldir))
     else:
         print('Wrong input. ')
-    q0 = str(input('Press any key to continue, q to quit: '))
-if q0.upper() == 'Q':
-    exit()
